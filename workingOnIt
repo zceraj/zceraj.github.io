@@ -494,7 +494,7 @@
                     </div>
                     <div class="profile-section">
                         <div class="profile-picture">
-                            <img src="https://images.unsplash.com/photo-1494790108755-2616b332c1c7?w=400&h=400&fit=crop&crop=face" alt="Your profile picture" />
+                            <img src="zaraheadshot.jpg" alt="Profile picture" />
                         </div>
                     </div>
                 </div>
@@ -505,9 +505,8 @@
             <div class="container">
                 <h2 class="section-title fade-in">About Me</h2>
                 <div class="about-content fade-in">
-                    <p>I'm a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.</p>
-                    <p>Currently, I'm working on exciting projects that push the boundaries of web development. I contribute to creating and maintaining UI components that power modern web applications, ensuring they meet accessibility standards and best practices to deliver inclusive user experiences.</p>
-                    <p>In my spare time, I enjoy learning new technologies, contributing to open source projects, and exploring the latest trends in design and development.</p>
+                    <p>I am an incoming third-year student at Northeastern University, where I study computer science and biology. I am currently training to become a full-stack developer and am proficient in Java, Kotlin, and SQL. In addition to my coursework, I am currently learning React and Python to further enhance my development skills and broaden my toolkit.
+                    <p>In my free time, I enjoy water coloring, playing guitar, and cooking. Additionally, I am passionate about travel and love planning my next adventure.
                 </div>
             </div>
         </section>
@@ -623,7 +622,7 @@
                 <h2 class="section-title fade-in">Get In Touch</h2>
                 <div class="contact-content fade-in">
                     <p>I'm always interested in hearing about new opportunities and interesting projects. Whether you're a company looking to hire, or you just want to say hello, I'd love to hear from you!</p>
-                    <a href="mailto:your.email@example.com" class="btn btn-primary">Say Hello</a>
+                    <a href="mailto:zara@bugaco.com" class="btn btn-primary">Say Hello</a>
                 </div>
             </div>
         </section>
