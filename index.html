@@ -188,6 +188,30 @@
             transform: translateY(-2px);
         }
 
+        .circle-button {
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: #ff69b4; /* bright pink */
+          color: black;
+          border: 2px solid black;
+          text-align: center;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 1.2;
+          padding: 10px;
+          transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+        
+        .circle-button:hover {
+          background-color: #ff85c1;
+          transform: scale(1.05);
+        }
+
         /* Profile Picture */
         .profile-section {
             display: flex;
@@ -589,7 +613,7 @@
                         Collaborated with a multidisciplinary team on experimental design, technical execution, and manuscript preparation, strengthening skills in scientific communication and teamwork.
                     </div>
                    <div class="social-links">
-                        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10544208/" class="btn btn-secondary">Read Published Paper Here</a>
+                        <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10544208/" class="circle-button">Read Published Paper Here</a>
                     </div>
                     <div class = "space"> 
                     <div>
