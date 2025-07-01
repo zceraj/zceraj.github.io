@@ -699,7 +699,6 @@
     </footer>
 
     <script>
-        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -713,7 +712,6 @@
             });
         });
 
-        // Intersection Observer for fade-in animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -728,12 +726,10 @@
             });
         }, observerOptions);
 
-        // Observe all elements that should fade in
         document.querySelectorAll('.fade-in').forEach(el => {
             observer.observe(el);
         });
 
-        // Header scroll effect
         let lastScrollTop = 0;
         const header = document.querySelector('header');
 
@@ -749,7 +745,6 @@
             lastScrollTop = scrollTop;
         });
 
-        // Add typing effect to the hero title
         const title = document.querySelector('.hero-text h1');
         const titleText = title.textContent;
         title.textContent = '';
@@ -763,7 +758,6 @@
             }
         };
         
-        // Start typing effect after a short delay
         setTimeout(typeWriter, 500);
     </script>
 </body>
